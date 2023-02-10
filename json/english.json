@@ -1,0 +1,42 @@
+[
+  {
+    "answer_1": "none",
+    "answer_2": "both",
+    "answer_3": "all",
+    "answer_4": "neither",
+    "r_answer": "both",
+    "title": "Aaron and Milan are friends and _______ of them go to the same school. They are classmates, too."
+  },
+  {
+    "answer_1": "neither of",
+    "answer_2": "none",
+    "answer_3": "both",
+    "answer_4": "all of",
+    "r_answer": "both",
+    "title": "Nancy and Jenny are 27 years old and they are _______ bankers."
+  },
+  {
+    "answer_1": "None of / All",
+    "answer_2": "Both / None",
+    "answer_3": "Neither of / Both",
+    "answer_4": "All / Neither",
+    "r_answer": "None of / All",
+    "title": "_______ the eleven footballers in the team were happy about the final score _______ of them were sad. "
+  },
+  {
+    "answer_1": "none of",
+    "answer_2": "both of",
+    "answer_3": "neither",
+    "answer_4": "all",
+    "r_answer": "both of",
+    "title": "Ryan bought two blankets yesterday and he has already washed _______ them. "
+  },
+  {
+    "answer_1": "Neither / Both",
+    "answer_2": "All / Neither",
+    "answer_3": "Both / None",
+    "answer_4": "None / All",
+    "r_answer": "None / All",
+    "title": "_______ of the five girls has short black hair. _______ of them have long brown hair."
+  }
+]

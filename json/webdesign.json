@@ -1,0 +1,42 @@
+[
+  {
+    "answer_1": "Protocol",
+    "answer_2": "Web browser",
+    "answer_3": "Web server",
+    "answer_4": "Search Engine",
+    "r_answer": "Web browser",
+    "title": "Which program is used by web clients to view the web pages?"
+  },
+  {
+    "answer_1": "file",
+    "answer_2": "Web Server",
+    "answer_3": "Uniform Resource Locator",
+    "answer_4": "Web Address",
+    "r_answer": "Uniform Resource Locator",
+    "title": "What is the name of the location address of the hypertext documents?"
+  },
+  {
+    "answer_1": "meta Tag",
+    "answer_2": "Img Tag",
+    "answer_3": "head Tag",
+    "answer_4": "Title tag",
+    "r_answer": "Title tag",
+    "title": "Which tag is used to display text in title bar of a web document?"
+  },
+  {
+    "answer_1": "Attributes",
+    "answer_2": "Properties",
+    "answer_3": "contents",
+    "answer_4": "None of the above",
+    "r_answer": "Attributes",
+    "title": "Which are used with a tag to modify its function?"
+  },
+  {
+    "answer_1": "PHP",
+    "answer_2": "HTML",
+    "answer_3": "Typescript",
+    "answer_4": "None of the above",
+    "r_answer": "HTML",
+    "title": "The language that instructs the browser on how to display the hypertext, and adds pictures to the document is __"
+  }
+]

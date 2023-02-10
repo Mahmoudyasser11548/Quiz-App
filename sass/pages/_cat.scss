@@ -1,0 +1,54 @@
+@use '../helpers/mixins' as *;
+
+.cat {
+  h3 {
+    line-height: 1.4;
+    font-weight: 300;
+    margin: auto {
+      bottom: 40px;
+    }
+    width: 600px;
+  }
+  .cat-container {
+    display: flex;
+    margin: 40px 0;
+    .box {
+      margin-right: 20px;
+      padding: 20px 15px;
+      width: 280px;
+      height: 250px;
+      line-height: 1.5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 40px 0 40px 0;
+      transition: 0.5s;
+      position: relative;
+      cursor: pointer;
+      color: white;
+      &:first-child {
+        background-color: #03a9f4;
+      }
+      &:nth-child(2) {
+        background-color: #e91e63;
+      }
+      &:last-child {
+        background-color: #ff5722;
+      }
+      svg {
+        margin-bottom: 15px;
+      }
+      &:hover,
+      &.active {
+        opacity: 0.3;
+        background-size: 200% 100%;
+        color: white;
+        border-radius: 0 40px 0 40px;
+      }
+    }
+  }
+  button.start {
+    @include button
+  }
+}

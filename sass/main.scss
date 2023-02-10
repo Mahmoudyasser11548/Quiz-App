@@ -1,0 +1,37 @@
+
+// Rules
+@use '_rules';
+
+// Catagory Page 
+@use 'pages/cat';
+
+// Question Page 
+@use 'pages/ques';
+
+// Result Page
+@use 'pages/result';
+
+.quiz-app {
+  width: 100%;
+  margin: 20px auto;
+  .logo {
+    display: block;
+    font-size: 30px;
+    letter-spacing: 3px;
+    &::first-letter {
+      color: #3f51b5;
+      font: {
+        size: 40px;
+        weight: bold;
+      }
+    }
+  }
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 30px 0;
+}

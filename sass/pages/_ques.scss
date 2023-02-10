@@ -1,0 +1,105 @@
+@use '../helpers/mixins' as *;
+
+.quiz-info {
+  display: none;
+  .cata-type {
+    margin: 10px 0;
+    font: {
+      size: 20px;
+      weight: bold
+    }
+    color: #090e28;
+    text-transform: capitalize;
+  }
+  .question-count {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font: {
+      weight: bold;
+      size: 30px;
+    }
+    span {
+      width: 100px;
+      height: 10px;
+      background-color: #ddd;
+      margin-right: -5px;
+      &:last-child {
+        border-radius: 0 10px 10px 0;
+      }
+      &:first-child {
+        border-radius: 10px 0 0 10px;
+      }
+      &.on {
+        background-color: #3f51b5;
+      }
+    }
+  }
+  .title h2 {
+    margin-bottom: 20px;
+    color: #090e28;
+  }
+  .questions {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: 60px 0 50px;
+    .answer {
+      padding: 16px 8px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      margin-bottom: 40px;
+      text-align: left;
+      background-color: #fff;
+      width: 420px;
+      cursor: pointer;
+      input[type="radio"] {
+        font: {
+          weight: 300;
+          size: 18px;
+        }
+        appearance: none;
+        position: relative;
+        &::before {
+          content: '';
+          width: 16px;
+          height: 16px;
+          position: absolute;
+          top: 50%;
+          left: 5px;
+          transform: translateY(-65%);
+          border-radius: 50%;
+          background-color: #fff;
+          border: 2px solid black;
+        }
+        &:checked::before {
+          border-color: #3f51b5;
+        }
+        &:checked:after {
+          content: '';
+          width: 12px;
+          height: 12px;
+          position: absolute;
+          left: 9px;
+          top: 50%;
+          transform: translateY(-75%);
+          border-radius: 50%;
+          background-color: #3f51b5;
+        }
+        + label {
+          padding-left: 35px;
+          user-select: none;
+          word-wrap: break-word;
+        }
+        &:checked + label {
+          color: #3f51b5;
+        }
+      }
+    }
+  }
+  button.next {
+    @include button;
+    margin: 0
+  }
+}

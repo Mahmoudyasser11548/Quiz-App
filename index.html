@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="quiz-app">
+    <span class="logo">QuizLab</span>
+    <div class="content">
+      <!-- Catagories -->
+      <div class="cat">
+        <h3>
+          Choose on from catagories below & see how many 
+          questions you can answer correctly out of 5 questions!
+        </h3>
+        <div class="cat-container">
+          <div class="box" data-cat="web design">
+            <i class="fa-solid fa-display fa-3x"></i>
+            <h4>Web Design</h4>
+            <p>
+              Web design refers to the design of websites that are displayed on the internet.
+            </p>
+          </div>
+          <div class="box" data-cat="computer fundementals">
+            <i class="fa-solid fa-computer fa-3x"></i>
+            <h4>Computer Fundementals</h4>
+            <p>
+              A computer takes in information as input, 
+              processes the data, and gives new information as the output.
+            </p>
+          </div>
+          <div class="box" data-cat="english">
+            <i class="fa-solid fa-language fa-3x"></i>
+            <h4>English Grammer</h4>
+            <p>grammar is a set of rules about language based on how it is actually used.</p>
+          </div>
+        </div>
+        <button class="start">Start Quiz</button>
+      </div>
+      <!-- Quiz_info -->
+      <div class="quiz-info">
+        <div class="cata-type">
+          Catagory:
+        </div>
+        <div class="question-count">
+        </div>
+        <div class="title">
+        </div>
+        <div class="questions">
+          
+        </div>
+        <button class="next">Next Question</button>
+      </div>
+      <!-- Result -->
+      <div class="result"></div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+  <script src="js/all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+@use '../helpers/mixins' as *;
+
+.result {
+  line-height: 1.6;
+  h1.cong {
+    color: #3f51b5;
+    font-size: 40px;
+  }
+  .res {
+    color: #3f51b5;
+    font: {weight: 700;size: 40px}
+  }
+  .answ,.appre,.cata-type {
+    display: block;
+    font: {weight: 700;size: 22px}
+  }
+  .home {
+    @include button;
+    background-color: #fff;
+    color: #3f51b5;
+    border: 1px solid #3f51b5;
+  }
+}

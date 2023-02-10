@@ -1,0 +1,17 @@
+// Mixins
+// @use 'helpers/mixins' as *;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  background-image: url(../images/bg-stars.svg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

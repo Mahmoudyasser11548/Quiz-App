@@ -1,0 +1,42 @@
+[
+  {
+    "answer_1": "Collection of hardware Components and Computers",
+    "answer_2": "Interconnected by communication channels",
+    "answer_3": "sharing of resources and information",
+    "answer_4": "all of the above",
+    "r_answer": "all of the above",
+    "title": "Computer Network is __________"
+  },
+  {
+    "answer_1": "Agreements on how communication components and DTE`s are to communicate",
+    "answer_2": "Logical communication channels for tansferring data",
+    "answer_3": "physical communication channels used for tansferring data",
+    "answer_4": "none of the above",
+    "r_answer": "Agreements on how communication components and DTE`s are to communicate",
+    "title": "Protocols are _________ ?"
+  },
+  {
+    "answer_1": "16 bytes",
+    "answer_2": "10 bytes",
+    "answer_3": "20 bytes",
+    "answer_4": "32 bytes",
+    "r_answer": "20 bytes",
+    "title": "What is the minimum header size of an ip Packet ?"
+  },
+  {
+    "answer_1": "169.254.0.1 to 169.254.0.254",
+    "answer_2": "169.254.0.1 to 169.254.0.255",
+    "answer_3": "169.254.0.1 to 169.254.255.254",
+    "answer_4": "169.254.0.1 to 169.254.255.255",
+    "r_answer": "169.254.0.1 to 169.254.255.254",
+    "title": "what is the IP Address range of APIPA ?"
+  },
+  {
+    "answer_1": "FTP",
+    "answer_2": "TCP",
+    "answer_3": "UDP",
+    "answer_4": "TCP & UDP",
+    "r_answer": "TCP & UDP",
+    "title": "Which of the following Protocol is/are defined in Transport layer ?"
+  }
+]
